@@ -1,9 +1,9 @@
 # Scavio for Cursor
 
-Structured web data for Cursor's agent. One API key gets you Google search,
-page extraction, and first-party data from Amazon, YouTube, Reddit, TikTok,
-LinkedIn, Instagram, Walmart and X - all as structured JSON rather than HTML
-you have to parse.
+Structured web data for Cursor's agent. One API key, 31 platforms, structured
+JSON rather than HTML you have to parse - search and page extraction, plus
+first-party data from commerce, social, travel, jobs, real-estate, app-store,
+software-review, ad-library and company-filing sources.
 
 ## Install
 
@@ -34,14 +34,35 @@ Run `/setup` if you would rather be walked through it.
 | `scavio-google` | Google SERP - organic, ads, knowledge graph, AI overview, PAA |
 | `scavio-extract` | Any URL to markdown, text, or HTML |
 | `scavio-amazon` | Product search, detail, and every seller offer on an ASIN |
+| `scavio-walmart` | Product search, detail, reviews, offers |
+| `scavio-ebay` | Live and SOLD listings - what buyers actually paid |
+| `scavio-target` | Search, category, product, reviews |
+| `scavio-homedepot` | Search, product, reviews |
 | `scavio-youtube` | Videos, channels, transcripts, comments |
-| `scavio-reddit` | Posts, threaded comments, subreddits, user history |
 | `scavio-tiktok` | Videos, users, comments |
 | `scavio-tiktok-shop` | Shop products and sellers |
 | `scavio-instagram` | Posts, profiles, media |
-| `scavio-linkedin` | Profiles, companies, jobs |
-| `scavio-walmart` | Product search, detail, reviews, offers |
+| `scavio-threads` | Profiles, posts, replies, comments |
 | `scavio-x` | Posts and profiles |
+| `scavio-kuaishou` | Profiles, videos, hashtag feeds, trending |
+| `scavio-reddit` | Posts, threaded comments, subreddits, user history |
+| `scavio-linkedin` | Profiles, companies, jobs |
+| `scavio-indeed` | Job search, postings, company reviews |
+| `scavio-glassdoor` | Company profiles, employee reviews, salaries |
+| `scavio-booking` | Hotel search, property detail, guest reviews |
+| `scavio-airbnb` | Listing search, detail, guest reviews |
+| `scavio-tripadvisor` | Hotels, restaurants, attractions, reviews |
+| `scavio-yelp` | Local business search, profiles, reviews |
+| `scavio-zillow` | Property search, detail, agent reviews |
+| `scavio-redfin` | Listing search, property detail, market stats |
+| `scavio-appstore` | App search, listings, user reviews |
+| `scavio-googleplay` | App search, listings, user reviews |
+| `scavio-g2` | Software search, profiles, verified reviews |
+| `scavio-capterra` | Software search, profiles, reviews |
+| `scavio-google-ads` | Google ad transparency - advertiser libraries, creatives |
+| `scavio-meta-ads` | Meta ad library - ads, advertisers, creatives |
+| `scavio-sec` | SEC EDGAR filings, XBRL facts, full-text search |
+| `scavio-companies-house` | UK company registration, officers, filing history |
 | `scavio-setup` | Key, MCP entry, and platform allowlist |
 
 ### Commands

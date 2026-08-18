@@ -3,7 +3,7 @@
   "name": "scavio",
   "displayName": "Scavio",
   "version": "0.1.0",
-  "description": "Structured web data for Cursor's agent: Google search, page extraction, and first-party data from Amazon, YouTube, Reddit, TikTok, LinkedIn, Instagram, Walmart and X - one API key, structured JSON.",
+  "description": "Structured web data for Cursor's agent - one API key, 31 platforms, JSON not HTML: Google, YouTube, TikTok, TikTok Shop, Instagram, Threads, X, LinkedIn, Reddit, Kuaishou, Amazon, Walmart, eBay, Target, Home Depot, Booking.com, Airbnb, Tripadvisor, Yelp, Zillow, Redfin, Indeed, Glassdoor, App Store, Google Play, G2, Capterra, Google Ads, Meta Ads, SEC EDGAR and Companies House - plus extract any URL to markdown.",
   "author": {
     "name": "Scavio",
     "url": "https://scavio.dev"
@@ -20,9 +20,23 @@
     "structured data",
     "web data",
     "serp",
+    "google",
     "youtube",
     "tiktok",
-    "amazon"
+    "amazon",
+    "reddit",
+    "instagram",
+    "linkedin",
+    "x",
+    "walmart",
+    "ebay",
+    "zillow",
+    "indeed",
+    "glassdoor",
+    "yelp",
+    "app store",
+    "sec edgar",
+    "mcp"
   ],
   "tags": [
     "mcp",
