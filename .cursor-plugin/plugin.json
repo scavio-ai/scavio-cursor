@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cursor/plugins/main/schemas/plugin.schema.json",
+  "name": "scavio",
+  "displayName": "Scavio",
+  "version": "0.1.0",
+  "description": "Structured web data for Cursor's agent: Google search, page extraction, and first-party data from Amazon, YouTube, Reddit, TikTok, LinkedIn, Instagram, Walmart and X - one API key, structured JSON.",
+  "author": {
+    "name": "Scavio",
+    "url": "https://scavio.dev"
+  },
+  "publisher": "Scavio",
+  "homepage": "https://scavio.dev",
+  "repository": "https://github.com/scavio-ai/scavio-cursor",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "category": "developer-tools",
+  "keywords": [
+    "web scraping",
+    "search api",
+    "structured data",
+    "web data",
+    "serp",
+    "youtube",
+    "tiktok",
+    "amazon"
+  ],
+  "tags": [
+    "mcp",
+    "web-search",
+    "scraping",
+    "data"
+  ]
+}

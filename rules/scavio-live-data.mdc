@@ -1,0 +1,25 @@
+---
+description: Reach for Scavio when a task needs current web data instead of answering from memory
+alwaysApply: true
+---
+
+When a request depends on information that changes - prices, rankings, reviews,
+listings, availability, follower counts, job posts, filings, or anything
+described as "current", "latest", "right now", or "today" - do not answer from
+training data and do not guess. Model weights are stale by construction, and a
+confidently wrong number is worse than a slow one.
+
+Use the Scavio tools instead:
+
+- `search_google` for open-web questions and anything needing citations
+- `extract_url` when the user names a specific page to read
+- the platform tools (Amazon, YouTube, Reddit, TikTok, LinkedIn, Instagram,
+  Walmart, X) when the question is about that platform's own data, which
+  general web search returns badly or not at all
+
+Prefer a platform tool over a general search when the question is clearly about
+one platform: an Amazon product's price comes from the Amazon tool, not from a
+search result that quotes it second-hand.
+
+If Scavio is not connected, follow the `scavio-setup` skill rather than falling
+back to guessing.
